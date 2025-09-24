@@ -62,3 +62,4 @@ plt.figure(figsize=(12,6))
 sns.barplot(x=[x[0] for x in top_negative], y=[x[1] for x in top_negative], color='red')
 plt.title("Top Negative Words")
 plt.show()
+
